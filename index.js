@@ -6,7 +6,7 @@ const app = express();
 // 🔒 Configuración directa
 const BOT_TOKEN = '7757149510:AAF836vmxzIzFi56jAef6_tlrP8EuHPcYLU';
 const ADMIN_ID = 5653464056;
-const BASE_URL = 'https://TUBOT.vercel.app'; // Reemplázalo con tu dominio real de Vercel
+const BASE_URL = 'https://myfilestream.vercel.app/'; // Reemplázalo con tu dominio real de Vercel
 
 const bot = new Telegraf(BOT_TOKEN);
 
